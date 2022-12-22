@@ -1,0 +1,17 @@
+body {
+    background-color: #1A2849;
+}
+
+.flex-container {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.sample1 div:nth-child(2) {
+    flex-basis: 200px;
+}
+.sample2 div:nth-child(2) {
+    flex-basis: 33%;
+}
+.sample3 > * {
+    flex-basis: 33%;
+}
